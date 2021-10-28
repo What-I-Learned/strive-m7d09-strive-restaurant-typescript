@@ -42,7 +42,7 @@ function Home({ title }: HomeProps) {
             ))}
           </Carousel>
         </Col>
-        {/* <DishComments selectedPasta={selected} /> */}
+        <DishComments selectedPasta={selected} />
       </Row>
     </Container>
   );

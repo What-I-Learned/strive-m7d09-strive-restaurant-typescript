@@ -1,5 +1,9 @@
 import { Container, Row, Col, ListGroup } from "react-bootstrap";
-import { DishCommentsProps } from "../typings/DishComments";
+import { PastaMenuJSON, Comment } from "../typings/MenuJSON";
+
+interface DishCommentsProps {
+  selectedPasta: PastaMenuJSON;
+}
 
 const DishComments = ({ selectedPasta }: DishCommentsProps) => (
   <Container>
