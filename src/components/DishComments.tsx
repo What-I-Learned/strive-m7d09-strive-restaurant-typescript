@@ -2,7 +2,7 @@ import { Container, Row, Col, ListGroup } from "react-bootstrap";
 import { PastaMenuJSON, Comment } from "../typings/MenuJSON";
 
 interface DishCommentsProps {
-  selectedPasta: PastaMenuJSON;
+  selectedPasta: PastaMenuJSON | null;
 }
 
 const DishComments = ({ selectedPasta }: DishCommentsProps) => (
